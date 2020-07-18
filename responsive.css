@@ -1,0 +1,574 @@
+@media all and (max-width: 1110px) {
+  .box-head-left {
+    display: none;
+  }
+
+  .box-head-right {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 1107px) {
+  .top-navigation {
+    display: none;
+  }
+
+  .mobile-member {
+    display: block;
+  }
+}
+
+@media all and (max-width: 875px) {
+  #int-links .downloadapp {
+    display: block;
+  }
+
+  .left-footer-box {
+    height: 390px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .pad-box {
+    padding: 20px;
+  }
+
+  #int-links .downloadapp {
+    display: inline-block;
+    margin: 0px 0px 45px;
+  }
+
+  .pad-box {
+    padding: 0 20px;
+  }
+}
+
+/* File Mynotification */
+/* End Sectinon box-persentase*/
+@media (min-width: 992px) and (max-width: 1200px) {
+  .box-content-persentase .box-content-left .box-content.name-km {
+    width: 100%;
+  }
+
+  .box-content-persentase .box-content-left .box-content.name-km .name {
+    margin-top: 20px;
+    line-height: 1;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-content-persentase {
+    padding: 15px 20px;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-header-persentase .box-icon-tittle {
+    width: 98%;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-header-persentase .box-icon-tittle img {
+    display: none;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-header-persentase .box-icon-tittle .tittle {
+    text-align: center;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-content-persentase .box-content-left {
+    float: left;
+    width: 85%;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-persen-name
+    .persen {
+    display: inline-block;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    width: 29%;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-persen-name
+    .name {
+    display: inline-block;
+    float: left;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 1px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-match-km
+    .match {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    font-size: 21px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-match-km
+    .km {
+    display: inline-block;
+    font-size: 21px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-match-km {
+    margin-top: 5px;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-content-persentase .box-content-right {
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-right
+    .icon
+    img {
+    width: 40px;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-content-persentase.content2 {
+    padding: 20px 20px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase.content2
+    .box-content-right.btn-show
+    .inform {
+    float: none;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase.content2
+    .box-content-right.btn-show
+    .button-show {
+    margin-top: 5px;
+    margin-left: 0px !important;
+  }
+
+  .show-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .box-content-persentase .box-content-left .box-content.persen-match {
+    float: none !important;
+  }
+
+  .box-content-persentase .box-content-left .box-content.name-km {
+    margin-top: 20px;
+    width: 100% !important;
+  }
+
+  .box-content-persentase .box-content-left .box-content.name-km .name {
+    line-height: 1;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-content-persentase.content2 {
+    padding: 20px 20px;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-content-persentase .box-content-left {
+    float: left;
+    width: 85%;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-persen-name
+    .persen {
+    font-size: 27px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-persen-name
+    .name {
+    font-size: 25px;
+    margin-top: 0px;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-content-persentase .box-content-right {
+    width: 14%;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-match-km
+    .match {
+    font-size: 22px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-match-km
+    .km {
+    font-size: 22px;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-content-persentase .box-content-right .icon {
+    top: 25px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase.content2
+    .box-content-left {
+    width: 100% !important;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase.content2
+    .box-content-right {
+    width: 48% !important;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase.content2
+    .box-tittle-inform
+    .tittle {
+    font-size: 15px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase.content2
+    .box-tittle-inform
+    .inform {
+    font-size: 15px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase.content2
+    .box-content-right.btn-show
+    .inform {
+    float: none;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase.content2
+    .box-content-right.btn-show
+    .button-show {
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+
+  .show-block {
+    display: block;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-header-persentase .box-icon-tittle img {
+    display: none;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-header-persentase .box-icon-tittle .tittle {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-header-persentase .box-icon-tittle {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase.content2
+    .box-content-left {
+    width: 100% !important;
+  }
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-content-persentase .box-content-right .icon {
+    margin-top: 20px;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase {
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .content-wrapper-dash section.persentase .box-main {
+    padding: 10px 20px;
+    display: block;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-persen-name
+    .persen {
+    display: inline-block;
+    float: left;
+    font-size: 38px;
+    font-weight: bold;
+    width: 30%;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-match-km
+    .match {
+    font-size: 26px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-match-km
+    .km {
+    font-size: 26px;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-content-persentase.content2 {
+    padding: 20px 20px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase.content2
+    .box-content-right.btn-show
+    .inform {
+    float: none !important;
+  }
+
+  .show-block {
+    display: block;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase.content2
+    .box-content-right.btn-show
+    .button-show {
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-header-persentase .box-icon-tittle img {
+    display: none;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-header-persentase .box-icon-tittle .tittle {
+    color: #0da6e5;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-header-persentase .box-icon-tittle {
+    width: 100%;
+  }
+
+  .box-content-persentase .box-content-left .box-content.persen-match {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+
+  .box-content-persentase .box-content-left .box-content.name-km .km {
+    font-size: 28px;
+    line-height: 1;
+  }
+
+  .box-content-persentase .box-content-left .box-content.name-km .name {
+    margin-top: 20px;
+    line-height: 1;
+  }
+
+  .box-content-persentase .box-content-left .box-content.name-km .name {
+    margin-top: 20px;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-content-persentase .box-content-left {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .content-wrapper-dash section.persentase .box-header .tittle {
+    width: 95%;
+  }
+
+  .content-wrapper-dash section.persentase .box-header .text-result {
+    margin-bottom: 0px;
+    float: left;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-header-persentase .box-icon-tittle {
+    width: 200px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-persen-name
+    .persen {
+    font-size: 26px;
+    margin-bottom: 10px;
+    width: 33%;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-persen-name
+    .name {
+    font-size: 24px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-match-km {
+    margin-top: 0px;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-match-km
+    .match {
+    font-size: 18px;
+    width: 33%;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase
+    .box-content-left
+    .box-match-km
+    .km {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-content-persentase .box-content-right .icon {
+    top: 25px;
+    left: 10px;
+  }
+
+  .content-wrapper-dash section.persentase .box-main .box-persentase .box-header-persentase .box-icon-tittle .tittle {
+    top: 5px;
+    width: 95%;
+  }
+
+  .content-wrapper-dash
+    section.persentase
+    .box-main
+    .box-persentase
+    .box-content-persentase.content2
+    .box-tittle-inform
+    .tittle {
+    font-size: 15px;
+  }
+}
+
+/* Sectinon box-persentase*/
+/* End Mynotification */
