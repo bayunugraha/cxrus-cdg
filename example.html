@@ -5,25 +5,17 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="bootrap/bootstrap.css">
-    <link rel="stylesheet" href="bootrap/bootstrap-responsive.css">
-    <link rel="stylesheet" href="font/fonts.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Component bayu -->
     <link rel="stylesheet" href="bayufix.css">
     <link rel="stylesheet" href="bayunotfix.css">
     <link rel="stylesheet" href="responsive.css">
-
-    <!--
-        Start CSS Bayu
-        Project : CDG 2020 July
-        Tim : Endrick,Yogi,Bayu,Fenglong
-    -->
     <link rel="stylesheet" href="bayu.css">
-    <!--End CSS Bayu-->
+    <!-- Component bayu -->
 
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script src="dashboard/script.js"></script>
-    <title>CSS MenuMaker</title>
+    <title>CSS Xample CDG</title>
     <!-- NOTIF POPUP -->
     <div id="notif-cover">
         <div class="box-notif">
@@ -108,10 +100,8 @@
                 Project : CDG 2020 July
                 Tim : Endrick,Yogi,Bayu,Fenglong
             -->
-
             <h1 style="text-align: center;">NEW</h1>
 
-            <h6>NewContract-01-Dashboard </h6>
 
             <!-- pembuka section box-profile-and-notif -->
             <section class="box-profile-and-notif" style="background-image: url(img/gallery/3.jpg);">
@@ -153,8 +143,7 @@
             </section>
             <!-- penutup section box-profile-and-notif -->
 
-            <h6>NewContract-01-Dashboard</h6>
-            <h6>NewContract-02-ContractScheme</h6>
+            <br><br><br>
 
             <!-- pembuka section box-contract-scheme-->
             <section class="box-contract-scheme">
@@ -166,12 +155,100 @@
                     </a>
                 </div>
                 <div class="box-content-contract-scheme">
-
+                    <!-- Tabs list -->
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link" id="month-6-tab" data-toggle="pill" href="#month-6" role="tab"
+                                aria-controls="month-6" aria-selected="true">
+                                <div class="box-month">
+                                    <div class="title">6-month scheme</div>
+                                    <div class="description">Total Payout : $1.200</div>
+                                    <box class="details">
+                                        See details
+                                    </box>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="month-9-tab" data-toggle="pill" href="#month-9" role="tab"
+                                aria-controls="month-9" aria-selected="false">
+                                <div class="box-month">
+                                    <div class="title">9-month scheme</div>
+                                    <div class="description">Total Payout : $1.500</div>
+                                    <box class="details">
+                                        See details
+                                    </box>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="month-12-tab" data-toggle="pill" href="#month-12" role="tab"
+                                aria-controls="month-12" aria-selected="false">
+                                <div class="box-month">
+                                    <div class="title">12-month scheme</div>
+                                    <div class="description">Total Payout : $1.800</div>
+                                    <box class="details">
+                                        See details
+                                    </box>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="month-18-tab" data-toggle="pill" href="#month-18" role="tab"
+                                aria-controls="month-18" aria-selected="false">
+                                <div class="box-month">
+                                    <div class="title">18-month scheme</div>
+                                    <div class="description">Total Payout : $3.000</div>
+                                    <box class="details">
+                                        See details
+                                    </box>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Tabs list -->
+                    <!-- Tabs content -->
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="month-6" role="tabpanel"
+                            aria-labelledby="month-6-tab">
+                            <p>Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim
+                                sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation
+                                proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit
+                                cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat
+                                culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.</p>
+                        </div>
+                        <div class="tab-pane fade" id="month-9" role="tabpanel" aria-labelledby="month-9-tab">
+                            <p>Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex.
+                                Aute sunt incididunt amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod
+                                voluptate exercitation cillum id incididunt elit sunt. Qui minim sit magna Lorem id et
+                                dolore velit Lorem amet exercitation duis deserunt. Anim id labore elit adipisicing ut
+                                in id occaecat pariatur ut ullamco ea tempor duis.</p>
+                        </div>
+                        <div class="tab-pane fade" id="month-12" role="tabpanel" aria-labelledby="month-12-tab">
+                            <p>Est quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor
+                                aliqua irure ex. Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum
+                                veniam eu veniam. Eiusmod minim exercitation fugiat irure ex labore incididunt do fugiat
+                                commodo aliquip sit id deserunt reprehenderit aliquip nostrud. Amet ex cupidatat
+                                excepteur aute veniam incididunt mollit cupidatat esse irure officia elit do ipsum
+                                ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum commodo sunt
+                                tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim
+                                minim reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt
+                                velit ullamco sunt ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing
+                                aliqua cupidatat aliqua pariatur mollit voluptate voluptate consequat non.</p>
+                        </div>
+                        <div class="tab-pane fade" id="month-18" role="tabpanel" aria-labelledby="month-18-tab">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio culpa saepe quasi nulla
+                                perferendis sapiente, delectus adipisci illo, at alias et suscipit dolor officia
+                                pariatur praesentium facere expedita amet. Sit excepturi tempore ea fugit explicabo
+                                ratione omnis alias corporis repudiandae totam ducimus natus velit eius sunt commodi
+                                earum, qui expedita!</p>
+                        </div>
+                    </div>
+                    <!-- Tabs content -->
                 </div>
             </section>
             <!-- pembuka section box-contract-scheme-->
 
-            <h6>NewContract-02-ContractScheme</h6>
 
             <h1 style="text-align: center;">END NEW</h1>
             <br>
@@ -179,7 +256,6 @@
             <!-- ------------------------------------------------------------------ -->
 
             <h1 style="text-align: center;">RENEW</h1>
-            <h6>NewContract-01-Dashboard </h6>
 
             <!-- pembuka section box-profile and notif -->
             <section class="box-profile-and-notif" style="background-image: url(img/gallery/3.jpg);">
@@ -223,7 +299,6 @@
             </section>
             <!-- penutup section box-profile and notif -->
 
-            <h6>NewContract-01-Dashboard </h6>
             <h1 style="text-align: center;">END RENEW</h1>
 
 
@@ -232,43 +307,18 @@
              -->
 
         </div>
-
-        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-        <script>
-            $(document).ready(function () {
-                $('.notif-open').click(function () {
-                    $('#notif-cover').fadeIn();
-                });
-                $('#notif-cover').click(function () {
-                    $('#notif-cover').fadeOut();
-                });
-
-                $("#checkAll").change(function () {
-                    $("input:checkbox").prop('checked', $(this).prop("checked"));
-                });
-                // Flex
-                // End Flex
-
-                // Show-code-hint
-                $(".show-hint-code").on("click", function () {
-                    var code = $(this).siblings('.hint-code'),
-                        code_value = $(code).attr("data-value"),
-                        code_original = $(code).attr("data-original");
-
-
-                    if (!$(this).hasClass("active")) {
-                        $(this).html("HIDE")
-                        $(code).html(code_value);
-                        $(this).addClass("active");
-                    } else {
-                        $(this).html("SHOW")
-                        $(code).html(code_original);
-                        $(this).removeClass("active");
-                    }
-                });
-                // Show-code-hint
-            });
+        <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="dashboard/script.js"></script>
+        <script src="js/jquery-3.5.1.slim.min.js">
         </script>
-
+        <script src="js/popper.min.js">
+        </script>
+        <script src="js/bootstrap.min.js">
+        </script>
+        <script src="js/style.js">
+        </script>
+        <!-- Component js bayu -->
+        <script src="bayu.js"></script>
+        <!-- Component js bayu -->
         </body>
         <html>
