@@ -1,267 +1,47 @@
-section.box-profile-and-notif {
-    display: flex;
-    flex-direction: column;
+section.box-contract-scheme .box-header-contract-scheme .title {
+  font-size: 24px;
+  font-weight: 600;
+  overflow-x: auto;
+  color: #333333;
+  line-height: 1.3;
+  margin-bottom: 10px;
 }
-
-section.box-profile-and-notif .box-component1 {
-    display: flex;
-}
-
-@media (max-width: 767px) {
-    section.box-profile-and-notif .box-component1 {
-        flex-direction: column;
-    }
-}
-
-section.box-profile-and-notif .box-component1 .box-component2 {
-    flex: 1;
-    background-color: black;
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-profile {
-    background-color: #f5cf04;
-    padding: 20px 0;
-    flex: 0 0 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-right: 1px solid white;
-}
-
-@media (max-width: 1200px) {
-    section.box-profile-and-notif .box-component1 .box-component2.box-profile {
-        flex: 0 0 30%;
-    }
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-profile .box-image {
-    width: 110px;
-    height: 110px;
-    margin-right: 0;
-    display: inline-block;
-    padding: 0;
-    background-size: cover;
-    border-radius: 50%;
-    margin-bottom: 15px;
-    margin-left: -30px;
-}
-
-@media (max-width: 1200px) {
-    section.box-profile-and-notif .box-component1 .box-component2.box-profile .box-image {
-        margin-left: 0;
-    }
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-profile .name {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    color: #333333;
-    margin-left: -30px;
-}
-
 @media (max-width: 1365px) {
-    section.box-profile-and-notif .box-component1 .box-component2.box-profile .name {
-        text-align: center;
-        margin-left: 0;
-        font-size: 20px;
-    }
+  section.box-contract-scheme .box-header-contract-scheme .title {
+    font-size: 20px;
+  }
 }
-
-@media (max-width: 767px) {
-    section.box-profile-and-notif .box-component1 .box-component2.box-profile .name {
-        font-size: 17px;
-    }
+section.box-contract-scheme .box-header-contract-scheme .desctiprion {
+  font-size: 15px;
+  margin-bottom: 20px;
 }
-
-section.box-profile-and-notif .box-component1 .box-component2.box-profile .box-update-logout {
-    overflow: hidden;
-}
-
-@media (max-width: 1366px) {
-    section.box-profile-and-notif .box-component1 .box-component2.box-profile .box-update-logout {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-profile .box-update-logout .button {
-    display: inline-block;
-    color: white;
-    font-size: 10px;
-    padding: 3px 15px;
-    border-radius: 20px;
-    background-color: #244b8c;
-    margin-bottom: 5px;
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-profile .box-update-logout .button:nth-child(1) {
-    margin-right: 8px;
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-current {
-    background-color: #f1b914;
-    border-right: 1px solid white;
-    padding: 30px 20px 20px;
-}
-
-@media (max-width: 767px) {
-    section.box-profile-and-notif .box-component1 .box-component2.box-current {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-current .title {
-    font-size: 24px;
-    font-weight: 600;
-    overflow-x: auto;
-    color: #333333;
-    line-height: 1.3;
-}
-
 @media (max-width: 1365px) {
-    section.box-profile-and-notif .box-component1 .box-component2.box-current .title {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 767px) {
-    section.box-profile-and-notif .box-component1 .box-component2.box-current .title {
-        text-align: center;
-    }
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-current .title.renew span {
-    color: red;
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-current .description {
-    margin-top: 10px;
-    overflow-y: auto;
-    font-size: 15px;
-    color: #413c30;
-    font-weight: 600px;
-    min-height: 88px;
-}
-
-@media (max-width: 767px) {
-    section.box-profile-and-notif .box-component1 .box-component2.box-current .description {
-        min-height: 40px;
-        text-align: center;
-        font-size: 12px;
-    }
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-current .description.renew {
-    min-height: 58px;
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-current .button {
-    background-color: #e14747;
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    border-radius: 20px;
-    padding: 8px 25px;
-    margin-top: 10px;
-    display: inline-block;
-}
-
-@media (max-width: 767px) {
-    section.box-profile-and-notif .box-component1 .box-component2.box-current .button {
-        padding: 3px 50px;
-        font-size: 14px;
-    }
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-point {
-    background-color: #efa41c;
-    flex-direction: column;
-    flex: 0 0 25%;
-}
-
-@media (max-width: 1199px) {
-    section.box-profile-and-notif .box-component1 .box-component2.box-point {
-        flex: 0 0 30%;
-    }
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 50%;
-    border: 1px solid;
-    padding: 12px 0;
-    box-sizing: border-box;
-    color: white;
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3 .title {
+  section.box-contract-scheme .box-header-contract-scheme .desctiprion {
     font-size: 14px;
-    margin-bottom: 15px;
+  }
 }
-
-@media (max-width: 1365px) {
-    section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3 .title {
-        font-size: 13px;
-    }
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3 .description {
-    font-size: 28px;
-    margin-bottom: 15px;
-}
-
-@media (max-width: 1365px) {
-    section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3 .description {
-        font-size: 26px;
-    }
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3 .button {
-    color: white;
-    background-color: #e14747;
-    font-size: 10px;
-    padding: 2px 15px;
-    border-radius: 20px;
-}
-
-section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3.box-performance {
-    border-bottom: 1px solid white;
-}
-
-section.box-profile-and-notif .box-component1.box-new-notifications {
-    padding: 15px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: space-between;
-}
-
-section.box-profile-and-notif .box-component1.box-new-notifications .box-left {
+@media (max-width: 767px) {
+  section.box-contract-scheme .box-header-contract-scheme .desctiprion {
     font-size: 12px;
-    font-weight: 600;
+  }
 }
-
-section.box-profile-and-notif .box-component1.box-new-notifications .box-left span {
-    color: #e4c010;
-    font-weight: bold;
-    font-size: 16px;
-    position: relative;
-    top: -1px;
-    margin-right: 2px;
+section.box-contract-scheme .box-header-contract-scheme .button {
+  text-align: center;
+  color: white;
+  display: block;
+  padding: 7px 0;
+  background-color: #1b4b8c;
+  font-size: 16px;
+  margin-bottom: 40px;
 }
-
-section.box-profile-and-notif .box-component1.box-new-notifications .box-right {
-    font-size: 11px;
-    color: white;
+@media (max-width: 1365px) {
+  section.box-contract-scheme .box-header-contract-scheme .button {
+    font-size: 15px;
+  }
 }
-
-section.box-profile-and-notif .box-component1.box-new-notifications .box-right span {
-    color: #e4c010;
-    text-decoration: underline;
+@media (max-width: 767px) {
+  section.box-contract-scheme .box-header-contract-scheme .button {
+    font-size: 14px;
+    padding: 7px 20px;
+  }
 }
