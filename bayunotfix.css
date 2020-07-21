@@ -26,8 +26,12 @@ section.box-contract-scheme .box-header-contract-scheme .box-description-new .de
 
 @media (max-width: 767px) {
   section.box-contract-scheme .box-header-contract-scheme .box-description-new .desctiprion {
-    font-size: 12px;
+    font-size: 13px;
   }
+}
+
+section.box-contract-scheme .box-header-contract-scheme .box-description-renew {
+  margin: 20px 0 30px;
 }
 
 section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul {
@@ -36,13 +40,33 @@ section.box-contract-scheme .box-header-contract-scheme .box-description-renew u
 }
 
 section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul li.title {
-  flex: 0 0 20%;
+  flex: 0 0 200px;
   font-size: 15px;
   margin-bottom: 0;
+  font-weight: 700;
+}
+
+@media (max-width: 1365px) {
+  section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul li.title {
+    font-size: 14px;
+  }
 }
 
 section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul li.description {
   margin-top: -3px;
+  font-size: 15px;
+}
+
+@media (max-width: 1365px) {
+  section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul li.description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul li.description {
+    font-size: 13px;
+  }
 }
 
 section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul:nth-child(1),
@@ -55,7 +79,7 @@ section.box-contract-scheme .box-header-contract-scheme .box-description-renew u
 }
 
 section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul:last-child .title {
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 
 section.box-contract-scheme .box-header-contract-scheme .button {
