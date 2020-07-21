@@ -35,10 +35,7 @@ section.box-profile-and-notif .box-component1 .box-component2.box-profile {
   }
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-profile
-  .box-image {
+section.box-profile-and-notif .box-component1 .box-component2.box-profile .box-image {
   width: 110px;
   height: 110px;
   margin-right: 0;
@@ -51,18 +48,12 @@ section.box-profile-and-notif
 }
 
 @media (max-width: 1200px) {
-  section.box-profile-and-notif
-    .box-component1
-    .box-component2.box-profile
-    .box-image {
+  section.box-profile-and-notif .box-component1 .box-component2.box-profile .box-image {
     margin-left: 0;
   }
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-profile
-  .name {
+section.box-profile-and-notif .box-component1 .box-component2.box-profile .name {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -71,10 +62,7 @@ section.box-profile-and-notif
 }
 
 @media (max-width: 1365px) {
-  section.box-profile-and-notif
-    .box-component1
-    .box-component2.box-profile
-    .name {
+  section.box-profile-and-notif .box-component1 .box-component2.box-profile .name {
     text-align: center;
     margin-left: 0;
     font-size: 20px;
@@ -82,37 +70,24 @@ section.box-profile-and-notif
 }
 
 @media (max-width: 767px) {
-  section.box-profile-and-notif
-    .box-component1
-    .box-component2.box-profile
-    .name {
+  section.box-profile-and-notif .box-component1 .box-component2.box-profile .name {
     font-size: 17px;
   }
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-profile
-  .box-update-logout {
+section.box-profile-and-notif .box-component1 .box-component2.box-profile .box-update-logout {
   overflow: hidden;
 }
 
 @media (max-width: 1366px) {
-  section.box-profile-and-notif
-    .box-component1
-    .box-component2.box-profile
-    .box-update-logout {
+  section.box-profile-and-notif .box-component1 .box-component2.box-profile .box-update-logout {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-profile
-  .box-update-logout
-  .button {
+section.box-profile-and-notif .box-component1 .box-component2.box-profile .box-update-logout .button {
   display: inline-block;
   color: white;
   font-size: 10px;
@@ -122,11 +97,7 @@ section.box-profile-and-notif
   margin-bottom: 5px;
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-profile
-  .box-update-logout
-  .button:nth-child(1) {
+section.box-profile-and-notif .box-component1 .box-component2.box-profile .box-update-logout .button:nth-child(1) {
   margin-right: 8px;
 }
 
@@ -144,10 +115,7 @@ section.box-profile-and-notif .box-component1 .box-component2.box-current {
   }
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-current
-  .title {
+section.box-profile-and-notif .box-component1 .box-component2.box-current .title {
   font-size: 24px;
   font-weight: 600;
   /* overflow-x: auto; */
@@ -156,35 +124,22 @@ section.box-profile-and-notif
 }
 
 @media (max-width: 1365px) {
-  section.box-profile-and-notif
-    .box-component1
-    .box-component2.box-current
-    .title {
+  section.box-profile-and-notif .box-component1 .box-component2.box-current .title {
     font-size: 20px;
   }
 }
 
 @media (max-width: 767px) {
-  section.box-profile-and-notif
-    .box-component1
-    .box-component2.box-current
-    .title {
+  section.box-profile-and-notif .box-component1 .box-component2.box-current .title {
     text-align: center;
   }
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-current
-  .title.renew
-  span {
-  color: red;
+section.box-profile-and-notif .box-component1 .box-component2.box-current .title.renew span {
+  color: #E14649;
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-current
-  .description {
+section.box-profile-and-notif .box-component1 .box-component2.box-current .description {
   margin-top: 10px;
   /* overflow-y: auto; */
   font-size: 15px;
@@ -194,37 +149,25 @@ section.box-profile-and-notif
 }
 
 @media (max-width: 1365px) {
-  section.box-profile-and-notif
-    .box-component1
-    .box-component2.box-current
-    .description {
+  section.box-profile-and-notif .box-component1 .box-component2.box-current .description {
     min-height: 95px;
     font-size: 14px;
   }
 }
 
 @media (max-width: 767px) {
-  section.box-profile-and-notif
-    .box-component1
-    .box-component2.box-current
-    .description {
+  section.box-profile-and-notif .box-component1 .box-component2.box-current .description {
     min-height: 40px;
     text-align: center;
     font-size: 12px;
   }
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-current
-  .description.renew {
+section.box-profile-and-notif .box-component1 .box-component2.box-current .description.renew {
   min-height: 58px;
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-current
-  .button {
+section.box-profile-and-notif .box-component1 .box-component2.box-current .button {
   background-color: #e14747;
   font-size: 16px;
   font-weight: 600;
@@ -236,10 +179,7 @@ section.box-profile-and-notif
 }
 
 @media (max-width: 767px) {
-  section.box-profile-and-notif
-    .box-component1
-    .box-component2.box-current
-    .button {
+  section.box-profile-and-notif .box-component1 .box-component2.box-current .button {
     padding: 3px 50px;
     font-size: 14px;
   }
@@ -257,10 +197,7 @@ section.box-profile-and-notif .box-component1 .box-component2.box-point {
   }
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-point
-  .box-component3 {
+section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -271,49 +208,29 @@ section.box-profile-and-notif
   color: white;
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-point
-  .box-component3
-  .title {
+section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3 .title {
   font-size: 14px;
   margin-bottom: 15px;
 }
 
 @media (max-width: 1365px) {
-  section.box-profile-and-notif
-    .box-component1
-    .box-component2.box-point
-    .box-component3
-    .title {
+  section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3 .title {
     font-size: 13px;
   }
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-point
-  .box-component3
-  .description {
+section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3 .description {
   font-size: 28px;
   margin-bottom: 15px;
 }
 
 @media (max-width: 1365px) {
-  section.box-profile-and-notif
-    .box-component1
-    .box-component2.box-point
-    .box-component3
-    .description {
+  section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3 .description {
     font-size: 26px;
   }
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-point
-  .box-component3
-  .button {
+section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3 .button {
   color: white;
   background-color: #e14747;
   font-size: 10px;
@@ -321,10 +238,7 @@ section.box-profile-and-notif
   border-radius: 20px;
 }
 
-section.box-profile-and-notif
-  .box-component1
-  .box-component2.box-point
-  .box-component3.box-performance {
+section.box-profile-and-notif .box-component1 .box-component2.box-point .box-component3.box-performance {
   border-bottom: 1px solid white;
 }
 
@@ -341,10 +255,7 @@ section.box-profile-and-notif .box-component1.box-new-notifications .box-left {
   font-weight: 600;
 }
 
-section.box-profile-and-notif
-  .box-component1.box-new-notifications
-  .box-left
-  span {
+section.box-profile-and-notif .box-component1.box-new-notifications .box-left span {
   color: #e4c010;
   font-weight: bold;
   font-size: 16px;
@@ -358,10 +269,7 @@ section.box-profile-and-notif .box-component1.box-new-notifications .box-right {
   color: white;
 }
 
-section.box-profile-and-notif
-  .box-component1.box-new-notifications
-  .box-right
-  span {
+section.box-profile-and-notif .box-component1.box-new-notifications .box-right span {
   color: #e4c010;
   text-decoration: underline;
 }

@@ -264,6 +264,16 @@ section.box-contract-scheme {
       line-height: 1.3;
       margin-bottom: 10px;
 
+      &.renew {
+        span {
+          color: #E14649;
+
+          @media(max-width:767px) {
+            display: block;
+          }
+        }
+      }
+
       @media (max-width: 1365px) {
         font-size: 20px;
       }
@@ -320,6 +330,10 @@ section.box-contract-scheme {
         &:nth-child(1),
         &:nth-child(3) {
           margin-bottom: 20px;
+
+          @media(max-width:576px) {
+            margin-bottom: 10px;
+          }
         }
 
         &:last-child {
@@ -328,6 +342,11 @@ section.box-contract-scheme {
           .title {
             margin-bottom: 5px;
           }
+        }
+
+        @media(max-width:576px) {
+          display: block;
+          margin-bottom: 10px;
         }
       }
     }
@@ -457,5 +476,6 @@ section.box-contract-scheme {
     }
   }
 }
+
 
 // penutup section box-content-contract-scheme
