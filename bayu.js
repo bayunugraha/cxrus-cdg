@@ -2,7 +2,7 @@
 $(document).ready(function () {
     $('.owl-carousel.owl-contract-scheme').owlCarousel({
         loop: true,
-        margin: 35,
+        margin: 30,
         nav: true,
         dots: false,
         navText: [
@@ -11,13 +11,13 @@ $(document).ready(function () {
         ],
         responsive: {
             0: {
-                items: 1
+                items: 1,
             },
-            767: {
+            565:{
                 items: 2
             },
-            992: {
-                items: 3
+            767: {
+                items: 3,
             },
             1200: {
                 items: 4

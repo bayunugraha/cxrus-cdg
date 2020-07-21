@@ -306,24 +306,48 @@ section.box-contract-scheme {
     ul {
       .owl-carousel {
         &.owl-contract-scheme {
-          padding: 0px 50px;
-          border: 1px solid;
+          padding: 0 50px;
           position: relative;
 
+          @media(max-width:564px) {
+            padding: 0 25px;
+          }
+
+          .owl-stage-outer {
+            z-index: 2;
+          }
+
           .owl-nav {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            margin-top: 0;
+
             button {
               position: absolute;
-              top: 50%;
-              transform: translatey(-50%);
+              color: #1b4b8c;
+              font-size: 1.6rem;
+
+              &:hover {
+                background-color: transparent;
+              }
+
+              &:focus {
+                border: transparent;
+                outline: none;
+              }
 
               &.owl-prev {
-                border: 1px solid;
-                left: 0px;
+                left: 0;
               }
 
               &.owl-next {
-                border: 1px solid;
-                right: 0px;
+                right: 0;
               }
             }
           }
@@ -331,7 +355,6 @@ section.box-contract-scheme {
       }
 
       li {
-        display: flex;
         border-radius: 10px;
 
         .nav-link {
@@ -348,12 +371,24 @@ section.box-contract-scheme {
               border-bottom: 2px solid #244B8C;
 
               .title {
-                font-size: 21px;
+                font-size: 17px;
+
+                @media(max-width:1365px) {
+                  font-size: 16px;
+                }
               }
 
               .description {
                 font-size: 15px;
                 font-weight: 500;
+
+                @media(max-width:1365px) {
+                  font-size: 14px;
+                }
+
+                @media(max-width:767px) {
+                  font-size: 13px;
+                }
               }
             }
 
@@ -361,6 +396,10 @@ section.box-contract-scheme {
               display: block;
               padding: 6px 20px;
               font-size: 14px;
+
+              @media(max-width:1365px) {
+                font-size: 13px;
+              }
             }
           }
         }
@@ -368,6 +407,5 @@ section.box-contract-scheme {
     }
   }
 }
-
 
 // penutup section box-content-contract-scheme

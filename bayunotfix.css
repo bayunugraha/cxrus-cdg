@@ -13,21 +13,49 @@ section.box-contract-scheme .box-header-contract-scheme .title {
   }
 }
 
-section.box-contract-scheme .box-header-contract-scheme .desctiprion {
+section.box-contract-scheme .box-header-contract-scheme .box-description-new .desctiprion {
   font-size: 15px;
   margin-bottom: 20px;
 }
 
 @media (max-width: 1365px) {
-  section.box-contract-scheme .box-header-contract-scheme .desctiprion {
+  section.box-contract-scheme .box-header-contract-scheme .box-description-new .desctiprion {
     font-size: 14px;
   }
 }
 
 @media (max-width: 767px) {
-  section.box-contract-scheme .box-header-contract-scheme .desctiprion {
+  section.box-contract-scheme .box-header-contract-scheme .box-description-new .desctiprion {
     font-size: 12px;
   }
+}
+
+section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul li.title {
+  flex: 0 0 20%;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul li.description {
+  margin-top: -3px;
+}
+
+section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul:nth-child(1),
+section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul:nth-child(3) {
+  margin-bottom: 20px;
+}
+
+section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul:last-child {
+  display: block;
+}
+
+section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul:last-child .title {
+  margin-bottom: 4px;
 }
 
 section.box-contract-scheme .box-header-contract-scheme .button {
@@ -58,24 +86,51 @@ section.box-contract-scheme .box-content-contract-scheme ul .owl-carousel.owl-co
   position: relative;
 }
 
+@media (max-width: 564px) {
+  section.box-contract-scheme .box-content-contract-scheme ul .owl-carousel.owl-contract-scheme {
+    padding: 0 25px;
+  }
+}
+
+section.box-contract-scheme .box-content-contract-scheme ul .owl-carousel.owl-contract-scheme .owl-stage-outer {
+  z-index: 2;
+}
+
+section.box-contract-scheme .box-content-contract-scheme ul .owl-carousel.owl-contract-scheme .owl-nav {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
 section.box-contract-scheme .box-content-contract-scheme ul .owl-carousel.owl-contract-scheme .owl-nav button {
   position: absolute;
-  top: 50%;
-  transform: translatey(-50%);
+  color: #1b4b8c;
+  font-size: 1.6rem;
+}
+
+section.box-contract-scheme .box-content-contract-scheme ul .owl-carousel.owl-contract-scheme .owl-nav button:hover {
+  background-color: transparent;
+}
+
+section.box-contract-scheme .box-content-contract-scheme ul .owl-carousel.owl-contract-scheme .owl-nav button:focus {
+  border: transparent;
+  outline: none;
 }
 
 section.box-contract-scheme .box-content-contract-scheme ul .owl-carousel.owl-contract-scheme .owl-nav button.owl-prev {
-  border: 1px solid;
   left: 0;
 }
 
 section.box-contract-scheme .box-content-contract-scheme ul .owl-carousel.owl-contract-scheme .owl-nav button.owl-next {
-  border: 1px solid;
   right: 0;
 }
 
 section.box-contract-scheme .box-content-contract-scheme ul li {
-  display: flex;
   border-radius: 10px;
 }
 
@@ -94,7 +149,13 @@ section.box-contract-scheme .box-content-contract-scheme ul li .nav-link .box-mo
 }
 
 section.box-contract-scheme .box-content-contract-scheme ul li .nav-link .box-month .box-title-n-description .title {
-  font-size: 21px;
+  font-size: 17px;
+}
+
+@media (max-width: 1365px) {
+  section.box-contract-scheme .box-content-contract-scheme ul li .nav-link .box-month .box-title-n-description .title {
+    font-size: 16px;
+  }
 }
 
 section.box-contract-scheme .box-content-contract-scheme ul li .nav-link .box-month .box-title-n-description .description {
@@ -102,8 +163,26 @@ section.box-contract-scheme .box-content-contract-scheme ul li .nav-link .box-mo
   font-weight: 500;
 }
 
+@media (max-width: 1365px) {
+  section.box-contract-scheme .box-content-contract-scheme ul li .nav-link .box-month .box-title-n-description .description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  section.box-contract-scheme .box-content-contract-scheme ul li .nav-link .box-month .box-title-n-description .description {
+    font-size: 13px;
+  }
+}
+
 section.box-contract-scheme .box-content-contract-scheme ul li .nav-link .box-month .details {
   display: block;
   padding: 6px 20px;
   font-size: 14px;
+}
+
+@media (max-width: 1365px) {
+  section.box-contract-scheme .box-content-contract-scheme ul li .nav-link .box-month .details {
+    font-size: 13px;
+  }
 }
