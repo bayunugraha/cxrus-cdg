@@ -247,7 +247,13 @@ section.box-contract-scheme .box-content-contract-scheme ul.nav li .nav-link .bo
 section.box-contract-scheme .box-content-contract-scheme .tab-content {
   border: 2px solid #244B8C;
   border-radius: 10px;
-  padding: 30px;
+  padding: 25px;
+}
+
+@media (max-width: 576px) {
+  section.box-contract-scheme .box-content-contract-scheme .tab-content {
+    padding: 15px;
+  }
 }
 
 section.box-contract-scheme .box-content-contract-scheme .tab-content .title {

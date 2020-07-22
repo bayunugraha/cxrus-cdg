@@ -484,7 +484,11 @@ section.box-contract-scheme {
     .tab-content {
       border: 2px solid#244B8C;
       border-radius: 10px;
-      padding: 30px;
+      padding: 25px;
+
+      @media(max-width:567px) {
+        padding: 15px;
+      }
 
       .title {
         font-size: 24px;
