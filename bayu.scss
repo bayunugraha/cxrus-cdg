@@ -482,88 +482,91 @@ section.box-contract-scheme {
     }
 
     .tab-content {
-      border: 2px solid#244B8C;
-      border-radius: 10px;
-      padding: 25px;
+      .tab-content-list {
 
-      @media(max-width:567px) {
-        padding: 15px;
-      }
+        border: 2px solid#244B8C;
+        border-radius: 10px;
+        padding: 25px;
 
-      .title {
-        font-size: 24px;
-        font-weight: 600;
-
-        @media(max-width:1365px) {
-          font-size: 20px;
+        @media(max-width:567px) {
+          padding: 15px;
         }
-      }
 
-      .box-description-tab-content {
-        margin: 25px 0;
+        .title {
+          font-size: 24px;
+          font-weight: 600;
 
-        ul {
-          margin: 0;
-
-          &:first-child {
-            margin-bottom: 20px;
+          @media(max-width:1365px) {
+            font-size: 20px;
           }
+        }
 
-          .title {
-            font-size: 15px;
-            margin-bottom: 0;
-            font-weight: 700;
-            margin-bottom: 5px;
+        .box-description-tab-content {
+          margin: 25px 0;
 
-            @media(max-width:1365px) {
-              font-size: 14px;
-            }
-          }
+          ul {
+            margin: 0;
 
-          .description {
-            margin-top: -3px;
-            font-size: 15px;
-
-            @media(max-width:1365px) {
-              font-size: 14px;
+            &:first-child {
+              margin-bottom: 20px;
             }
 
-            span {
-              min-width: 100px;
-              display: inline-block;
-              position: relative;
+            .title {
+              font-size: 15px;
+              margin-bottom: 0;
+              font-weight: 700;
+              margin-bottom: 5px;
 
-              @media(max-width:576px) {
-                display: block;
-                min-width: 90px;
-                width: 0px;
+              @media(max-width:1365px) {
+                font-size: 14px;
               }
             }
 
-            .text-italic {
-              font-style: italic;
-              font-size: 14px;
-              margin-top: 15px;
+            .description {
+              margin-top: -3px;
+              font-size: 15px;
+
+              @media(max-width:1365px) {
+                font-size: 14px;
+              }
 
               span {
-                display: inline;
+                min-width: 100px;
+                display: inline-block;
+                position: relative;
+
+                @media(max-width:576px) {
+                  display: block;
+                  min-width: 90px;
+                  width: 0px;
+                }
+              }
+
+              .text-italic {
+                font-style: italic;
+                font-size: 14px;
+                margin-top: 15px;
+
+                span {
+                  display: inline;
+                }
               }
             }
           }
         }
-      }
 
-      .button {
-        background-color: #F5CF04;
-        color: black;
-        padding: 6px 30px;
-        font-size: 17px;
-        font-weight: bold;
-        border-radius: 20px;
-        display: inline-block;
+        .button {
+          background-color: #F5CF04;
+          color: black;
+          padding: 6px 30px;
+          font-size: 17px;
+          font-weight: bold;
+          border-radius: 20px;
+          display: inline-block;
 
-        &:hover {
-          text-decoration: none;
+          &:hover {
+            text-decoration: none;
+          }
         }
       }
     }
