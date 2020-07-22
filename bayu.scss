@@ -254,7 +254,6 @@ section.box-profile-and-notif {
 // penutup section box-profile-and-notif
 
 // pembukaan section box-content-contract-scheme
-
 section.box-contract-scheme {
   .box-header-contract-scheme {
     .title {
@@ -360,6 +359,10 @@ section.box-contract-scheme {
       background-color: #1b4b8c;
       font-size: 16px;
       margin-bottom: 30px;
+
+      &:hover {
+        text-decoration: none;
+      }
 
       @media (max-width: 1365px) {
         font-size: 15px;
@@ -486,6 +489,10 @@ section.box-contract-scheme {
       .title {
         font-size: 24px;
         font-weight: 600;
+
+        @media(max-width:1365px) {
+          font-size: 20px;
+        }
       }
 
       .box-description-tab-content {
@@ -503,20 +510,36 @@ section.box-contract-scheme {
             margin-bottom: 0;
             font-weight: 700;
             margin-bottom: 5px;
+
+            @media(max-width:1365px) {
+              font-size: 14px;
+            }
           }
 
           .description {
             margin-top: -3px;
             font-size: 15px;
 
+            @media(max-width:1365px) {
+              font-size: 14px;
+            }
+
             span {
               min-width: 100px;
               display: inline-block;
+              position: relative;
+
+              @media(max-width:576px) {
+                display: block;
+                min-width: 90px;
+                width: 0px;
+              }
             }
 
             .text-italic {
               font-style: italic;
               font-size: 14px;
+              margin-top: 15px;
 
               span {
                 display: inline;
@@ -534,10 +557,13 @@ section.box-contract-scheme {
         font-weight: bold;
         border-radius: 20px;
         display: inline-block;
+
+        &:hover {
+          text-decoration: none;
+        }
       }
     }
   }
 }
-
 
 // penutup section box-content-contract-scheme

@@ -117,6 +117,10 @@ section.box-contract-scheme .box-header-contract-scheme .button {
   margin-bottom: 30px;
 }
 
+section.box-contract-scheme .box-header-contract-scheme .button:hover {
+  text-decoration: none;
+}
+
 @media (max-width: 1365px) {
   section.box-contract-scheme .box-header-contract-scheme .button {
     font-size: 15px;
@@ -251,6 +255,12 @@ section.box-contract-scheme .box-content-contract-scheme .tab-content .title {
   font-weight: 600;
 }
 
+@media (max-width: 1365px) {
+  section.box-contract-scheme .box-content-contract-scheme .tab-content .title {
+    font-size: 20px;
+  }
+}
+
 section.box-contract-scheme .box-content-contract-scheme .tab-content .box-description-tab-content {
   margin: 25px 0;
 }
@@ -270,19 +280,41 @@ section.box-contract-scheme .box-content-contract-scheme .tab-content .box-descr
   margin-bottom: 5px;
 }
 
+@media (max-width: 1365px) {
+  section.box-contract-scheme .box-content-contract-scheme .tab-content .box-description-tab-content ul .title {
+    font-size: 14px;
+  }
+}
+
 section.box-contract-scheme .box-content-contract-scheme .tab-content .box-description-tab-content ul .description {
   margin-top: -3px;
   font-size: 15px;
 }
 
+@media (max-width: 1365px) {
+  section.box-contract-scheme .box-content-contract-scheme .tab-content .box-description-tab-content ul .description {
+    font-size: 14px;
+  }
+}
+
 section.box-contract-scheme .box-content-contract-scheme .tab-content .box-description-tab-content ul .description span {
   min-width: 100px;
   display: inline-block;
+  position: relative;
+}
+
+@media (max-width: 576px) {
+  section.box-contract-scheme .box-content-contract-scheme .tab-content .box-description-tab-content ul .description span {
+    display: block;
+    min-width: 90px;
+    width: 0px;
+  }
 }
 
 section.box-contract-scheme .box-content-contract-scheme .tab-content .box-description-tab-content ul .description .text-italic {
   font-style: italic;
   font-size: 14px;
+  margin-top: 15px;
 }
 
 section.box-contract-scheme .box-content-contract-scheme .tab-content .box-description-tab-content ul .description .text-italic span {
@@ -297,4 +329,8 @@ section.box-contract-scheme .box-content-contract-scheme .tab-content .button {
   font-weight: bold;
   border-radius: 20px;
   display: inline-block;
+}
+
+section.box-contract-scheme .box-content-contract-scheme .tab-content .button:hover {
+  text-decoration: none;
 }
