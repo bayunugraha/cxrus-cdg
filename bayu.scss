@@ -254,6 +254,7 @@ section.box-profile-and-notif {
 // penutup section box-profile-and-notif
 
 // pembukaan section box-content-contract-scheme
+
 section.box-contract-scheme {
   .box-header-contract-scheme {
     .title {
@@ -372,7 +373,9 @@ section.box-contract-scheme {
   }
 
   .box-content-contract-scheme {
-    ul {
+    ul.nav {
+      margin-bottom: 40px;
+
       .owl-carousel {
         &.owl-contract-scheme {
           padding: 0 50px;
@@ -472,6 +475,65 @@ section.box-contract-scheme {
             }
           }
         }
+      }
+    }
+
+    .tab-content {
+      border: 2px solid#244B8C;
+      border-radius: 10px;
+      padding: 30px;
+
+      .title {
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      .box-description-tab-content {
+        margin: 25px 0;
+
+        ul {
+          margin: 0;
+
+          &:first-child {
+            margin-bottom: 20px;
+          }
+
+          .title {
+            font-size: 15px;
+            margin-bottom: 0;
+            font-weight: 700;
+            margin-bottom: 5px;
+          }
+
+          .description {
+            margin-top: -3px;
+            font-size: 15px;
+
+            span {
+              min-width: 100px;
+              display: inline-block;
+            }
+
+            .text-italic {
+              font-style: italic;
+              font-size: 14px;
+
+              span {
+                display: inline;
+              }
+            }
+          }
+        }
+      }
+
+      .button {
+        background-color: #F5CF04;
+        color: black;
+        padding: 6px 30px;
+        font-size: 17px;
+        font-weight: bold;
+        border-radius: 20px;
+        display: inline-block;
       }
     }
   }
