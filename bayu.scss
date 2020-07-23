@@ -48,7 +48,7 @@ section.box-profile-and-notif {
           font-weight: 600;
           margin-bottom: 15px;
           color: #333333;
-          margin-left: -30px;
+          margin-left: 0px;
 
           @media (max-width: 1365px) {
             text-align: center;
@@ -266,9 +266,9 @@ section.box-contract-scheme {
 
       &.renew {
         span {
-          color: #E14649;
+          color: #e14649;
 
-          @media(max-width:767px) {
+          @media (max-width: 767px) {
             display: block;
           }
         }
@@ -308,7 +308,7 @@ section.box-contract-scheme {
             margin-bottom: 0;
             font-weight: 700;
 
-            @media(max-width:1365px) {
+            @media (max-width: 1365px) {
               font-size: 14px;
             }
           }
@@ -317,7 +317,7 @@ section.box-contract-scheme {
             margin-top: -3px;
             font-size: 15px;
 
-            @media(max-width:1365px) {
+            @media (max-width: 1365px) {
               font-size: 14px;
             }
 
@@ -331,7 +331,7 @@ section.box-contract-scheme {
         &:nth-child(3) {
           margin-bottom: 20px;
 
-          @media(max-width:576px) {
+          @media (max-width: 576px) {
             margin-bottom: 10px;
           }
         }
@@ -344,7 +344,7 @@ section.box-contract-scheme {
           }
         }
 
-        @media(max-width:576px) {
+        @media (max-width: 576px) {
           display: block;
           margin-bottom: 10px;
         }
@@ -377,14 +377,14 @@ section.box-contract-scheme {
 
   .box-content-contract-scheme {
     ul.nav {
-      margin-bottom: 40px;
+      margin-bottom: 50px;
 
       .owl-carousel {
         &.owl-contract-scheme {
           padding: 0 50px;
           position: relative;
 
-          @media(max-width:564px) {
+          @media (max-width: 564px) {
             padding: 0 25px;
           }
 
@@ -394,12 +394,11 @@ section.box-contract-scheme {
 
           .owl-nav {
             width: 100%;
-            height: 100%;
+            height: 85%;
             position: absolute;
             top: 0;
             right: 0;
             display: flex;
-            /* justify-content: center; */
             align-items: center;
             margin-top: 0;
 
@@ -426,6 +425,33 @@ section.box-contract-scheme {
               }
             }
           }
+
+          .owl-dots {
+            position: relative;
+            top: 20px;
+
+            button {
+              &.active {
+                span {
+                  background-color: #0074be;
+                  height: 4px;
+                  position: relative;
+                  top: 1px;
+                }
+              }
+
+              span {
+                width: 55px;
+                height: 2px;
+                margin: 0;
+                border-radius: 1px;
+                background: #9fcae6;
+                display: block;
+                -webkit-backface-visibility: visible;
+                transition: opacity 200ms ease;
+              }
+            }
+          }
         }
       }
 
@@ -435,7 +461,7 @@ section.box-contract-scheme {
         .nav-link {
           background-color: transparent;
           color: black;
-          border: 2px solid #244B8C;
+          border: 2px solid #244b8c;
           border-radius: 10px;
           padding: 0;
 
@@ -443,12 +469,12 @@ section.box-contract-scheme {
             .box-title-n-description {
               display: block;
               padding: 10px 20px;
-              border-bottom: 2px solid #244B8C;
+              border-bottom: 2px solid #244b8c;
 
               .title {
                 font-size: 17px;
 
-                @media(max-width:1365px) {
+                @media (max-width: 1365px) {
                   font-size: 16px;
                 }
               }
@@ -457,11 +483,11 @@ section.box-contract-scheme {
                 font-size: 15px;
                 font-weight: 500;
 
-                @media(max-width:1365px) {
+                @media (max-width: 1365px) {
                   font-size: 14px;
                 }
 
-                @media(max-width:767px) {
+                @media (max-width: 767px) {
                   font-size: 13px;
                 }
               }
@@ -472,7 +498,7 @@ section.box-contract-scheme {
               padding: 6px 20px;
               font-size: 14px;
 
-              @media(max-width:1365px) {
+              @media (max-width: 1365px) {
                 font-size: 13px;
               }
             }
@@ -483,12 +509,11 @@ section.box-contract-scheme {
 
     .tab-content {
       .tab-content-list {
-
         border: 2px solid#244B8C;
         border-radius: 10px;
         padding: 25px;
 
-        @media(max-width:567px) {
+        @media (max-width: 567px) {
           padding: 15px;
         }
 
@@ -496,7 +521,7 @@ section.box-contract-scheme {
           font-size: 24px;
           font-weight: 600;
 
-          @media(max-width:1365px) {
+          @media (max-width: 1365px) {
             font-size: 20px;
           }
         }
@@ -517,7 +542,7 @@ section.box-contract-scheme {
               font-weight: 700;
               margin-bottom: 5px;
 
-              @media(max-width:1365px) {
+              @media (max-width: 1365px) {
                 font-size: 14px;
               }
             }
@@ -526,7 +551,7 @@ section.box-contract-scheme {
               margin-top: -3px;
               font-size: 15px;
 
-              @media(max-width:1365px) {
+              @media (max-width: 1365px) {
                 font-size: 14px;
               }
 
@@ -535,10 +560,10 @@ section.box-contract-scheme {
                 display: inline-block;
                 position: relative;
 
-                @media(max-width:576px) {
+                @media (max-width: 576px) {
                   display: block;
                   min-width: 90px;
-                  width: 0px;
+                  width: 0;
                 }
               }
 
@@ -556,7 +581,7 @@ section.box-contract-scheme {
         }
 
         .button {
-          background-color: #F5CF04;
+          background-color: #f5cf04;
           color: black;
           padding: 6px 30px;
           font-size: 17px;
