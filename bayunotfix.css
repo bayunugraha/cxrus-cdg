@@ -1,365 +1,190 @@
-section.box-contract-scheme .box-header-contract-scheme .title {
-  font-size: 24px;
-  font-weight: 600;
-  overflow-x: auto;
-  color: #333333;
-  line-height: 1.3;
-  margin-bottom: 10px;
-}
-
-section.box-contract-scheme .box-header-contract-scheme .title.renew span {
-  color: #E14649;
-}
-
-@media (max-width: 767px) {
-  section.box-contract-scheme .box-header-contract-scheme .title.renew span {
-    display: block;
-  }
-}
-
-@media (max-width: 1365px) {
-  section.box-contract-scheme .box-header-contract-scheme .title {
-    font-size: 20px;
-  }
-}
-
-section.box-contract-scheme .box-header-contract-scheme .box-description-new .desctiprion {
-  font-size: 15px;
-  margin-bottom: 20px;
-}
-
-@media (max-width: 1365px) {
-  section.box-contract-scheme .box-header-contract-scheme .box-description-new .desctiprion {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 767px) {
-  section.box-contract-scheme .box-header-contract-scheme .box-description-new .desctiprion {
-    font-size: 13px;
-  }
-}
-
-section.box-contract-scheme .box-header-contract-scheme .box-description-renew {
-  margin: 20px 0 30px;
-}
-
-section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul {
-  display: flex;
-  margin-bottom: 8px;
-}
-
-section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul li.title {
-  flex: 0 0 200px;
-  font-size: 15px;
-  margin-bottom: 0;
-  font-weight: 700;
-}
-
-@media (max-width: 1365px) {
-  section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul li.title {
-    font-size: 14px;
-  }
-}
-
-section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul li.description {
-  margin-top: -3px;
-  font-size: 15px;
-}
-
-@media (max-width: 1365px) {
-  section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul li.description {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 767px) {
-  section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul li.description {
-    font-size: 13px;
-  }
-}
-
-section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul:nth-child(1),
-section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul:nth-child(3) {
-  margin-bottom: 20px;
-}
-
-@media (max-width: 576px) {
-
-  section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul:nth-child(1),
-  section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul:nth-child(3) {
-    margin-bottom: 10px;
-  }
-}
-
-section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul:last-child {
-  display: block;
-}
-
-section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul:last-child .title {
-  margin-bottom: 5px;
-}
-
-@media (max-width: 576px) {
-  section.box-contract-scheme .box-header-contract-scheme .box-description-renew ul {
-    display: block;
-    margin-bottom: 10px;
-  }
-}
-
-section.box-contract-scheme .box-header-contract-scheme .button {
-  text-align: center;
-  color: white;
-  display: block;
-  padding: 7px 0;
-  background-color: #1b4b8c;
-  font-size: 16px;
-  margin-bottom: 30px;
-}
-
-section.box-contract-scheme .box-header-contract-scheme .button:hover {
-  text-decoration: none;
-}
-
-@media (max-width: 1365px) {
-  section.box-contract-scheme .box-header-contract-scheme .button {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 767px) {
-  section.box-contract-scheme .box-header-contract-scheme .button {
-    font-size: 14px;
-    padding: 7px 20px;
-  }
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav {
-  margin-bottom: 50px;
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav .owl-carousel.owl-contract-scheme {
-  padding: 0 50px;
-  position: relative;
-}
-
-@media (max-width: 564px) {
-  section.box-contract-scheme .box-content-contract-scheme ul.nav .owl-carousel.owl-contract-scheme {
-    padding: 0 25px;
-  }
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav .owl-carousel.owl-contract-scheme .owl-stage-outer {
+.box-contract-scheme-confirmation {
+  position: fixed;
   z-index: 2;
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav .owl-carousel.owl-contract-scheme .owl-nav {
   width: 100%;
-  height: 85%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  margin-top: 0;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
 }
 
-section.box-contract-scheme .box-content-contract-scheme ul.nav .owl-carousel.owl-contract-scheme .owl-nav button {
-  position: absolute;
-  color: #1b4b8c;
-  font-size: 1.6rem;
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation {
+  color: white;
+  width: 600px;
+  margin: 70px auto 0;
+  box-sizing: border-box;
 }
 
-section.box-contract-scheme .box-content-contract-scheme ul.nav .owl-carousel.owl-contract-scheme .owl-nav button:hover {
-  background-color: transparent;
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav .owl-carousel.owl-contract-scheme .owl-nav button:focus {
-  border: transparent;
-  outline: none;
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav .owl-carousel.owl-contract-scheme .owl-nav button.owl-prev {
-  left: 0;
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav .owl-carousel.owl-contract-scheme .owl-nav button.owl-next {
-  right: 0;
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav .owl-carousel.owl-contract-scheme .owl-dots {
-  position: relative;
-  top: 20px;
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav .owl-carousel.owl-contract-scheme .owl-dots button.active span {
-  background-color: #0074BE;
-  height: 4px;
-  position: relative;
-  top: 1px;
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav .owl-carousel.owl-contract-scheme .owl-dots button span {
-  width: 55px;
-  height: 2px;
-  margin: 0;
-  border-radius: 1px;
-  background: #9FCAE6;
-  display: block;
-  -webkit-backface-visibility: visible;
-  transition: opacity 200ms ease;
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav li {
-  border-radius: 10px;
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav li .nav-link {
-  background-color: transparent;
-  color: black;
-  border: 2px solid #244B8C;
-  border-radius: 10px;
-  padding: 0;
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav li .nav-link .box-month .box-title-n-description {
-  display: block;
-  padding: 10px 20px;
-  border-bottom: 2px solid #244B8C;
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav li .nav-link .box-month .box-title-n-description .title {
-  font-size: 17px;
-}
-
-@media (max-width: 1365px) {
-  section.box-contract-scheme .box-content-contract-scheme ul.nav li .nav-link .box-month .box-title-n-description .title {
-    font-size: 16px;
-  }
-}
-
-section.box-contract-scheme .box-content-contract-scheme ul.nav li .nav-link .box-month .box-title-n-description .description {
-  font-size: 15px;
-  font-weight: 500;
-}
-
-@media (max-width: 1365px) {
-  section.box-contract-scheme .box-content-contract-scheme ul.nav li .nav-link .box-month .box-title-n-description .description {
-    font-size: 14px;
+@media (max-width: 992px) {
+  .box-contract-scheme-confirmation .box-popup-sign-in-confirmation {
+    width: 500px;
   }
 }
 
 @media (max-width: 767px) {
-  section.box-contract-scheme .box-content-contract-scheme ul.nav li .nav-link .box-month .box-title-n-description .description {
-    font-size: 13px;
+  .box-contract-scheme-confirmation .box-popup-sign-in-confirmation {
+    width: 85%;
   }
 }
 
-section.box-contract-scheme .box-content-contract-scheme ul.nav li .nav-link .box-month .details {
-  display: block;
-  padding: 6px 20px;
-  font-size: 14px;
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-header-popup {
+  padding-bottom: 30px;
 }
 
-@media (max-width: 1365px) {
-  section.box-contract-scheme .box-content-contract-scheme ul.nav li .nav-link .box-month .details {
-    font-size: 13px;
+@media (max-width: 767px) {
+  .box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-header-popup {
+    background-color: #244B8C;
+    padding: 10px 15px;
   }
 }
 
-section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list {
-  border: 2px solid #244B8C;
-  border-radius: 10px;
-  padding: 25px;
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-header-popup .title {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  padding-bottom: 10px;
 }
 
-@media (max-width: 567px) {
-  section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list {
-    padding: 15px;
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-header-popup .title .strip {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-header-popup .title .strip {
+    display: inline-block;
   }
 }
 
-section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .title {
-  font-size: 24px;
-  font-weight: 600;
+@media (max-width: 767px) {
+  .box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-header-popup .title {
+    padding: 0;
+    font-size: 14px;
+    text-align: left;
+  }
 }
 
-@media (max-width: 1365px) {
-  section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .title {
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-header-popup .title:before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: #FCCF00;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767px) {
+  .box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-header-popup .title:before {
+    display: none;
+  }
+}
+
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup {
+  background-color: white;
+  color: #231F20;
+  box-sizing: border-box;
+  padding: 25px 25px 40px;
+}
+
+@media (max-width: 767px) {
+  .box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup {
+    padding: 10px 15px;
+  }
+}
+
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-title {
+  margin-bottom: 15px;
+}
+
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-title span {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-title span {
     font-size: 20px;
   }
 }
 
-section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .box-description-tab-content {
-  margin: 25px 0;
-}
-
-section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .box-description-tab-content ul {
-  margin: 0;
-}
-
-section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .box-description-tab-content ul:first-child {
-  margin-bottom: 20px;
-}
-
-section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .box-description-tab-content ul .title {
-  font-size: 15px;
-  margin-bottom: 0;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-@media (max-width: 1365px) {
-  section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .box-description-tab-content ul .title {
-    font-size: 14px;
-  }
-}
-
-section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .box-description-tab-content ul .description {
-  margin-top: -3px;
-  font-size: 15px;
-}
-
-@media (max-width: 1365px) {
-  section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .box-description-tab-content ul .description {
-    font-size: 14px;
-  }
-}
-
-section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .box-description-tab-content ul .description span {
-  min-width: 100px;
-  display: inline-block;
-  position: relative;
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-ul ul {
+  border-bottom: 2px solid #244B8C;
+  padding-bottom: 20px;
+  display: flex;
 }
 
 @media (max-width: 576px) {
-  section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .box-description-tab-content ul .description span {
+  .box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-ul ul {
     display: block;
-    min-width: 90px;
-    width: 0;
   }
 }
 
-section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .box-description-tab-content ul .description .text-italic {
-  font-style: italic;
-  font-size: 14px;
-  margin-top: 15px;
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-ul ul li {
+  font-size: 12px;
 }
 
-section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .box-description-tab-content ul .description .text-italic span {
-  display: inline;
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-ul ul li.type-description {
+  width: 150px;
+  font-weight: 700;
 }
 
-section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .button {
-  background-color: #F5CF04;
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-checkbox {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-checkbox .checkbox {
+  margin-right: 10px;
+}
+
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-checkbox .description-checkbox {
+  font-size: 13px;
+  margin-top: 1px;
+}
+
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-checkbox .description-checkbox span {
+  color: #244B8C;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-button {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-button {
+    flex-direction: column;
+  }
+}
+
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-button .button {
   color: black;
-  padding: 6px 30px;
-  font-size: 17px;
-  font-weight: bold;
+  font-weight: 700;
+  padding: 3px 25px;
   border-radius: 20px;
-  display: inline-block;
+  font-size: 12px;
+  text-align: center;
 }
 
-section.box-contract-scheme .box-content-contract-scheme .tab-content .tab-content-list .button:hover {
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-button .button:hover {
   text-decoration: none;
+}
+
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-button .button.sign-up {
+  background-color: #FCCF00;
+  margin-right: 30px;
+}
+
+@media (max-width: 576px) {
+  .box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-button .button.sign-up {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
+
+.box-contract-scheme-confirmation .box-popup-sign-in-confirmation .box-content-popup .box-button .button.back {
+  background-color: #AFAFAF;
 }

@@ -599,3 +599,184 @@ section.box-contract-scheme {
 }
 
 // penutup section box-content-contract-scheme
+
+// pembukaan box-contract-scheme-confirmation
+.box-contract-scheme-confirmation {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+
+  .box-popup-sign-in-confirmation {
+    color: white;
+    width: 600px;
+    margin: 70px auto 0;
+    box-sizing: border-box;
+
+    @media(max-width:992px) {
+      width: 500px;
+    }
+
+    @media(max-width:767px) {
+      width: 85%;
+    }
+
+    .box-header-popup {
+      padding-bottom: 30px;
+
+      @media(max-width:767px) {
+        background-color: #244B8C;
+        padding: 10px 15px;
+      }
+
+      .title {
+        text-align: center;
+        font-size: 20px;
+        position: relative;
+        padding-bottom: 10px;
+
+        .strip {
+          display: none;
+
+          @media(max-width:767px) {
+            display: inline-block;
+          }
+        }
+
+        span {
+          @media(max-width:767px) {
+            // display: block;
+          }
+        }
+
+        @media(max-width:767px) {
+          padding: 0;
+          font-size: 14px;
+          text-align: left;
+        }
+
+        &:before {
+          position: absolute;
+          content: "";
+          width: 40px;
+          height: 2px;
+          background-color: #FCCF00;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          margin-left: auto;
+          margin-right: auto;
+
+          @media(max-width:767px) {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .box-content-popup {
+      background-color: white;
+      color: #231F20;
+      box-sizing: border-box;
+      padding: 25px 25px 40px;
+
+      @media(max-width:767px) {
+        padding: 10px 15px;
+      }
+
+      .box-title {
+        margin-bottom: 15px;
+
+        span {
+          font-size: 19px;
+          font-weight: 700;
+
+          @media(max-width:767px) {
+            font-size: 20px;
+          }
+        }
+      }
+
+      .box-ul {
+        ul {
+          border-bottom: 2px solid #244B8C;
+          padding-bottom: 20px;
+          display: flex;
+
+          @media(max-width:576px) {
+            display: block;
+          }
+
+          li {
+            font-size: 12px;
+
+            &.type-description {
+              width: 150px;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+
+      .box-checkbox {
+        display: flex;
+        margin-bottom: 20px;
+
+        .checkbox {
+          margin-right: 10px;
+        }
+
+        .description-checkbox {
+          font-size: 13px;
+          margin-top: 1px;
+
+          span {
+            color: #244B8C;
+            text-decoration: underline;
+            font-weight: 600;
+          }
+        }
+      }
+
+      .box-button {
+        display: flex;
+        justify-content: center;
+
+        @media(max-width:576px) {
+          flex-direction: column;
+        }
+
+        .button {
+          color: black;
+          font-weight: 700;
+          padding: 3px 25px;
+          border-radius: 20px;
+          font-size: 12px;
+          text-align: center;
+
+          &:hover {
+            text-decoration: none;
+          }
+
+          &.sign-up {
+            background-color: #FCCF00;
+            margin-right: 30px;
+
+            @media(max-width:576px) {
+              margin-right: 0;
+              margin-bottom: 5px;
+            }
+          }
+
+          &.back {
+            background-color: #AFAFAF;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// penutup box-contract-scheme-confirmation
