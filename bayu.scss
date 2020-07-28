@@ -508,6 +508,12 @@ section.box-contract-scheme {
     }
 
     .tab-content {
+      #tab-month {
+        &.active {
+          display: block;
+        }
+      }
+
       .tab-content-list {
         border: 2px solid#244B8C;
         border-radius: 10px;
@@ -600,13 +606,18 @@ section.box-contract-scheme {
 
 // penutup section box-content-contract-scheme
 
-// pembukaan box-contract-scheme-confirmation
+// pembukaan section box-contract-scheme-confirmation
 .box-contract-scheme-confirmation {
   position: fixed;
   z-index: 2;
   width: 100%;
   height: 100vh;
   background: rgba(0, 0, 0, 0.8);
+  display: none;
+
+  &.active {
+    display: block;
+  }
 
   .box-popup-contract-scheme-confirmation {
     color: white;
@@ -614,19 +625,19 @@ section.box-contract-scheme {
     margin: 70px auto 0;
     box-sizing: border-box;
 
-    @media(max-width:992px) {
+    @media (max-width: 992px) {
       width: 500px;
     }
 
-    @media(max-width:767px) {
+    @media (max-width: 767px) {
       width: 85%;
     }
 
     .box-header-popup {
       padding-bottom: 30px;
 
-      @media(max-width:767px) {
-        background-color: #244B8C;
+      @media (max-width: 767px) {
+        background-color: #244b8c;
         padding: 10px 15px;
       }
 
@@ -639,18 +650,18 @@ section.box-contract-scheme {
         .strip {
           display: none;
 
-          @media(max-width:767px) {
+          @media (max-width: 767px) {
             display: inline-block;
           }
         }
 
         span {
-          @media(max-width:767px) {
+          @media (max-width: 767px) {
             // display: block;
           }
         }
 
-        @media(max-width:767px) {
+        @media (max-width: 767px) {
           padding: 0;
           font-size: 14px;
           text-align: left;
@@ -661,14 +672,14 @@ section.box-contract-scheme {
           content: "";
           width: 40px;
           height: 2px;
-          background-color: #FCCF00;
+          background-color: #fccf00;
           bottom: 0;
           right: 0;
           left: 0;
           margin-left: auto;
           margin-right: auto;
 
-          @media(max-width:767px) {
+          @media (max-width: 767px) {
             display: none;
           }
         }
@@ -677,11 +688,11 @@ section.box-contract-scheme {
 
     .box-content-popup {
       background-color: white;
-      color: #231F20;
+      color: #231f20;
       box-sizing: border-box;
       padding: 25px 25px 40px;
 
-      @media(max-width:767px) {
+      @media (max-width: 767px) {
         padding: 10px 15px;
       }
 
@@ -692,7 +703,7 @@ section.box-contract-scheme {
           font-size: 19px;
           font-weight: 700;
 
-          @media(max-width:767px) {
+          @media (max-width: 767px) {
             font-size: 20px;
           }
         }
@@ -700,11 +711,11 @@ section.box-contract-scheme {
 
       .box-ul {
         ul {
-          border-bottom: 2px solid #244B8C;
+          border-bottom: 2px solid #244b8c;
           padding-bottom: 20px;
           display: flex;
 
-          @media(max-width:576px) {
+          @media (max-width: 576px) {
             display: block;
           }
 
@@ -732,7 +743,7 @@ section.box-contract-scheme {
           margin-top: 1px;
 
           span {
-            color: #244B8C;
+            color: #244b8c;
             text-decoration: underline;
             font-weight: 600;
           }
@@ -743,7 +754,7 @@ section.box-contract-scheme {
         display: flex;
         justify-content: center;
 
-        @media(max-width:576px) {
+        @media (max-width: 576px) {
           flex-direction: column;
         }
 
@@ -760,17 +771,17 @@ section.box-contract-scheme {
           }
 
           &.sign-up {
-            background-color: #FCCF00;
+            background-color: #fccf00;
             margin-right: 30px;
 
-            @media(max-width:576px) {
+            @media (max-width: 576px) {
               margin-right: 0;
               margin-bottom: 5px;
             }
           }
 
           &.back {
-            background-color: #AFAFAF;
+            background-color: #afafaf;
           }
         }
       }
@@ -778,16 +789,20 @@ section.box-contract-scheme {
   }
 }
 
-// penutup box-contract-scheme-confirmation
+// penutup section box-contract-scheme-confirmation
 
-
-// pembukaan box-contract-scheme-successfull
+// pembukaan section box-contract-scheme-successfull
 .box-contract-scheme-successful {
   position: fixed;
   z-index: 2;
   width: 100%;
   height: 100vh;
   background: rgba(0, 0, 0, 0.8);
+  display: none;
+
+  &.active {
+    display: block;
+  }
 
   .box-popup-contract-scheme-successful {
     color: white;
@@ -795,19 +810,19 @@ section.box-contract-scheme {
     margin: 70px auto 0;
     box-sizing: border-box;
 
-    @media(max-width:992px) {
+    @media (max-width: 992px) {
       width: 500px;
     }
 
-    @media(max-width:767px) {
+    @media (max-width: 767px) {
       width: 85%;
     }
 
     .box-header-popup {
       padding-bottom: 30px;
 
-      @media(max-width:767px) {
-        background-color: #244B8C;
+      @media (max-width: 767px) {
+        background-color: #244b8c;
         padding: 10px 15px;
       }
 
@@ -820,18 +835,18 @@ section.box-contract-scheme {
         .strip {
           display: none;
 
-          @media(max-width:767px) {
+          @media (max-width: 767px) {
             display: inline-block;
           }
         }
 
         span {
-          @media(max-width:767px) {
+          @media (max-width: 767px) {
             // display: block;
           }
         }
 
-        @media(max-width:767px) {
+        @media (max-width: 767px) {
           padding: 0;
           font-size: 14px;
           text-align: left;
@@ -842,14 +857,14 @@ section.box-contract-scheme {
           content: "";
           width: 40px;
           height: 2px;
-          background-color: #FCCF00;
+          background-color: #fccf00;
           bottom: 0;
           right: 0;
           left: 0;
           margin-left: auto;
           margin-right: auto;
 
-          @media(max-width:767px) {
+          @media (max-width: 767px) {
             display: none;
           }
         }
@@ -858,11 +873,11 @@ section.box-contract-scheme {
 
     .box-content-popup {
       background-color: white;
-      color: #231F20;
+      color: #231f20;
       box-sizing: border-box;
       padding: 25px 25px 40px;
 
-      @media(max-width:767px) {
+      @media (max-width: 767px) {
         padding: 10px 15px;
       }
 
@@ -881,7 +896,7 @@ section.box-contract-scheme {
           font-size: 20px;
           font-weight: 700;
 
-          @media(max-width:767px) {
+          @media (max-width: 767px) {
             font-size: 20px;
           }
         }
@@ -891,7 +906,7 @@ section.box-contract-scheme {
         display: flex;
         justify-content: center;
 
-        @media(max-width:576px) {
+        @media (max-width: 576px) {
           flex-direction: column;
         }
 
@@ -907,7 +922,7 @@ section.box-contract-scheme {
           }
 
           &.cx-close {
-            background-color: #244B8C;
+            background-color: #244b8c;
             color: white;
             padding: 3px 30px;
             margin-top: 10px;
@@ -918,4 +933,4 @@ section.box-contract-scheme {
   }
 }
 
-// penutup box-contract-scheme-confirmation
+// penutup section box-contract-scheme-confirmation
